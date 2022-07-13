@@ -9,6 +9,6 @@
 - Execute Eclipse
 - Install Eclipse Acceleo plugin
 - Restart Eclipse
-- Create new Project
+- Create new Modeling Project
 - Copy [FieldTypeRepo.crudrest](https://github.com/asadidebuger/WPCrudRest/blob/main/models/FieldTypeRepo.crudrest "FieldTypeRepo.crudrest") from [models](https://github.com/asadidebuger/WPCrudRest/tree/main/models "models") directory to project model directory
 - will be completed...
