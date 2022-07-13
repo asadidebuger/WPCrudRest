@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crudrest:PluginCreator xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:crudrest="http://crudrest.msde.ui.ac.ir">
+  <plugin name="Library Manager" hasAccessControl="true">
+    <detail prefix="libman" description="Library Manager WP plugin" author="Mohammadreza Asadi" authorURI="https://mdse.ui.ac.ir/fa/member/%D9%85%D8%AD%D9%85%D8%AF%D8%B1%D8%B6%D8%A7-%D8%A7%D8%B3%D8%AF%DB%8C/" directory="libman"/>
+    <gui>
+      <menu title="My Library" slug="mylib" icon="book">
+        <items page="//@plugin/@gui/@page.0"/>
+        <items page="//@plugin/@gui/@page.1"/>
+        <items page="//@plugin/@gui/@page.2"/>
+        <items page="//@plugin/@gui/@page.5"/>
+        <items page="//@plugin/@gui/@page.4"/>
+        <items page="//@plugin/@gui/@page.3" overrideTitle="History"/>
+        <items page="//@plugin/@gui/@page.6" overrideTitle="Borrowed"/>
+      </menu>
+      <page key="member" entity="member">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.1/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.1/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.1/@fields.2" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.1/@fields.3" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.1/@fields.4" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.1/@fields.5" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.1/@fields.6" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.1/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.1/@fields.0 //@plugin/@serviceProvider/@entityModel.1/@fields.1 //@plugin/@serviceProvider/@entityModel.1/@fields.2 //@plugin/@serviceProvider/@entityModel.1/@fields.3 //@plugin/@serviceProvider/@entityModel.1/@fields.4 //@plugin/@serviceProvider/@entityModel.1/@fields.5 //@plugin/@serviceProvider/@entityModel.1/@fields.6 //@plugin/@serviceProvider/@entityModel.1/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.1/@fields.0 //@plugin/@serviceProvider/@entityModel.1/@fields.1 //@plugin/@serviceProvider/@entityModel.1/@fields.2 //@plugin/@serviceProvider/@entityModel.1/@fields.3 //@plugin/@serviceProvider/@entityModel.1/@fields.4 //@plugin/@serviceProvider/@entityModel.1/@fields.5 //@plugin/@serviceProvider/@entityModel.1/@fields.6 //@plugin/@serviceProvider/@entityModel.1/@relations.0"/>
+      </page>
+      <page key="book" entity="book">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.2" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.3" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.4" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.5" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@relations.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@relations.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@relations.2" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@relations.3" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.0/@fields.0 //@plugin/@serviceProvider/@entityModel.0/@fields.1 //@plugin/@serviceProvider/@entityModel.0/@fields.2 //@plugin/@serviceProvider/@entityModel.0/@fields.3 //@plugin/@serviceProvider/@entityModel.0/@fields.4 //@plugin/@serviceProvider/@entityModel.0/@fields.5 //@plugin/@serviceProvider/@entityModel.0/@relations.0 //@plugin/@serviceProvider/@entityModel.0/@relations.1 //@plugin/@serviceProvider/@entityModel.0/@relations.2 //@plugin/@serviceProvider/@entityModel.0/@relations.3" sortableColumns="//@plugin/@serviceProvider/@entityModel.0/@fields.0 //@plugin/@serviceProvider/@entityModel.0/@fields.1 //@plugin/@serviceProvider/@entityModel.0/@fields.2 //@plugin/@serviceProvider/@entityModel.0/@fields.3 //@plugin/@serviceProvider/@entityModel.0/@fields.4 //@plugin/@serviceProvider/@entityModel.0/@fields.5 //@plugin/@serviceProvider/@entityModel.0/@relations.0 //@plugin/@serviceProvider/@entityModel.0/@relations.1 //@plugin/@serviceProvider/@entityModel.0/@relations.2 //@plugin/@serviceProvider/@entityModel.0/@relations.3"/>
+      </page>
+      <page key="publisher" entity="publisher">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.2/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.2/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.2/@fields.0 //@plugin/@serviceProvider/@entityModel.2/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.2/@fields.0 //@plugin/@serviceProvider/@entityModel.2/@relations.0"/>
+      </page>
+      <page key="borrow" entity="borrow">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.3/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.3/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.3/@relations.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.3/@relations.1" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.3/@fields.0 //@plugin/@serviceProvider/@entityModel.3/@fields.1 //@plugin/@serviceProvider/@entityModel.3/@relations.0 //@plugin/@serviceProvider/@entityModel.3/@relations.1" sortableColumns="//@plugin/@serviceProvider/@entityModel.3/@fields.0 //@plugin/@serviceProvider/@entityModel.3/@fields.1 //@plugin/@serviceProvider/@entityModel.3/@relations.0 //@plugin/@serviceProvider/@entityModel.3/@relations.1"/>
+      </page>
+      <page key="category" entity="category">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.4/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.4/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.4/@fields.0 //@plugin/@serviceProvider/@entityModel.4/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.4/@fields.0 //@plugin/@serviceProvider/@entityModel.4/@relations.0"/>
+      </page>
+      <page key="writer" entity="writer">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.5/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.5/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.5/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.5/@fields.0 //@plugin/@serviceProvider/@entityModel.5/@fields.1 //@plugin/@serviceProvider/@entityModel.5/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.5/@fields.0 //@plugin/@serviceProvider/@entityModel.5/@fields.1 //@plugin/@serviceProvider/@entityModel.5/@relations.0"/>
+      </page>
+      <page key="borrownotretuned" entity="borrow" overrideTitle="Not returned">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.3/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.3/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.3/@relations.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.3/@relations.1" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.3/@fields.0 //@plugin/@serviceProvider/@entityModel.3/@fields.1 //@plugin/@serviceProvider/@entityModel.3/@relations.0 //@plugin/@serviceProvider/@entityModel.3/@relations.1" sortableColumns="//@plugin/@serviceProvider/@entityModel.3/@fields.0 //@plugin/@serviceProvider/@entityModel.3/@fields.1 //@plugin/@serviceProvider/@entityModel.3/@relations.0 //@plugin/@serviceProvider/@entityModel.3/@relations.1" extendWhereClause="borrow.returnDate = &quot;0000-00-00 00:00:00&quot;"/>
+      </page>
+      <reusableLayout name="Fill" col_md="12"/>
+      <reusableLayout name="Half" col_md="6"/>
+      <reusableLayout name="Quarter" col_md="3"/>
+    </gui>
+    <serviceProvider>
+      <entityModel key="book" label="Book" labelPlural="Books" titleScript="item.title">
+        <fields key="title" label="Title" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="publishDate" label="Publish Date" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#date"/>
+        </fields>
+        <fields key="isbn" label="ISBN" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="printDate" label="Print Date" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#date"/>
+        </fields>
+        <fields key="place" label="Place">
+          <type href="FieldTypeRepo.crudrest#text"/>
+        </fields>
+        <fields key="qty" label="Quantity" index="true">
+          <type href="FieldTypeRepo.crudrest#int"/>
+        </fields>
+        <relations key="category" label="Category" entity="category" opposite="//@plugin/@serviceProvider/@entityModel.4/@relations.0"/>
+        <relations key="publisher" label="Publisher" entity="publisher" opposite="//@plugin/@serviceProvider/@entityModel.2/@relations.0"/>
+        <relations key="writer" label="Writer" entity="writer" many="true" opposite="//@plugin/@serviceProvider/@entityModel.5/@relations.0"/>
+        <relations key="history" label="History" entity="borrow" many="true" opposite="//@plugin/@serviceProvider/@entityModel.3/@relations.1"/>
+      </entityModel>
+      <entityModel key="member" label="Member" labelPlural="Members" titleScript="item.name+' '+item.family">
+        <fields key="name" label="Name" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="family" label="Family" index="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="code" label="National Code" index="true" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#nationalCode"/>
+        </fields>
+        <fields key="mobile" label="Mobile" index="true" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#mobile"/>
+        </fields>
+        <fields key="address" label="Address">
+          <type href="FieldTypeRepo.crudrest#text"/>
+        </fields>
+        <fields key="birth" label="Birthdate" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#date"/>
+        </fields>
+        <fields key="bookLimit" label="Book Limit" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#int"/>
+        </fields>
+        <relations key="history" label="History" entity="borrow" many="true" opposite="//@plugin/@serviceProvider/@entityModel.3/@relations.0"/>
+      </entityModel>
+      <entityModel key="publisher" label="Publisher" labelPlural="Publisher" titleScript="item.title">
+        <fields key="title" label="Title" index="true" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#text"/>
+        </fields>
+        <relations key="book" label="Books" entity="book" many="true" opposite="//@plugin/@serviceProvider/@entityModel.0/@relations.1"/>
+      </entityModel>
+      <entityModel key="borrow" label="Borrowed Book" labelPlural="Borrowed Books" titleScript="item.id+'->'+item.borrowDate">
+        <fields key="borrowDate" label="Borrow date" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#datetime"/>
+        </fields>
+        <fields key="returnDate" label="Return date" index="true">
+          <type href="FieldTypeRepo.crudrest#datetime"/>
+        </fields>
+        <relations key="member" label="Member" entity="member" opposite="//@plugin/@serviceProvider/@entityModel.1/@relations.0"/>
+        <relations key="book" label="Book" entity="book" opposite="//@plugin/@serviceProvider/@entityModel.0/@relations.3"/>
+      </entityModel>
+      <entityModel key="category" label="Category" labelPlural="Categories" titleScript="item.title">
+        <fields key="title" label="Title" index="true" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <relations key="book" label="Books" entity="book" many="true" opposite="//@plugin/@serviceProvider/@entityModel.0/@relations.0"/>
+      </entityModel>
+      <entityModel key="writer" label="Writer" labelPlural="Writers" titleScript="item.name+' '+item.family">
+        <fields key="name" label="Firstname" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="family" label="Lastname" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#text"/>
+        </fields>
+        <relations key="book" label="Books" entity="book" many="true" opposite="//@plugin/@serviceProvider/@entityModel.0/@relations.2"/>
+      </entityModel>
+    </serviceProvider>
+  </plugin>
+  <repository href="FieldTypeRepo.crudrest#/"/>
+</crudrest:PluginCreator>

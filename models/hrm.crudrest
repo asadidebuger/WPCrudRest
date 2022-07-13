@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crudrest:PluginCreator xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:crudrest="http://crudrest.msde.ui.ac.ir">
+  <plugin name="Micro HRM" hasAccessControl="true">
+    <detail prefix="microhrm" description="simple hrm system" dbVersion="5" author="Mohammadreza Asadi" authorURI="http://microsign.ir" license="MIT" textDomain="microhrm" directory="microhrm"/>
+    <gui>
+      <menu title="Micro HRM" slug="microhrm" icon="admin-users">
+        <items page="//@plugin/@gui/@page.0"/>
+        <items page="//@plugin/@gui/@page.8"/>
+        <items page="//@plugin/@gui/@page.1"/>
+        <items page="//@plugin/@gui/@page.2"/>
+        <items page="//@plugin/@gui/@page.3"/>
+        <items page="//@plugin/@gui/@page.4"/>
+        <items page="//@plugin/@gui/@page.5"/>
+        <items page="//@plugin/@gui/@page.6"/>
+        <items page="//@plugin/@gui/@page.7"/>
+        <items page="//@plugin/@gui/@page.9"/>
+        <items page="//@plugin/@gui/@page.10"/>
+        <items page="//@plugin/@gui/@page.11"/>
+        <items page="//@plugin/@gui/@page.12"/>
+        <items page="//@plugin/@gui/@page.13"/>
+      </menu>
+      <page key="personPage" entity="person">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.0" layout="Quarter"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.1" layout="Quarter"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.2" layout="Quarter"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.3" layout="Quarter"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.4" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.5" layout="Quarter"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.6" layout="Quarter"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@fields.7" layout="Quarter"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@relations.0" layout="Quarter"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@relations.1" layout="Quarter"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@relations.2" layout="Quarter"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@relations.3" layout="Quarter"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.0/@relations.4" layout="Quarter"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.0/@fields.0 //@plugin/@serviceProvider/@entityModel.0/@fields.1 //@plugin/@serviceProvider/@entityModel.0/@fields.2 //@plugin/@serviceProvider/@entityModel.0/@fields.3 //@plugin/@serviceProvider/@entityModel.0/@fields.4 //@plugin/@serviceProvider/@entityModel.0/@fields.5 //@plugin/@serviceProvider/@entityModel.0/@fields.6 //@plugin/@serviceProvider/@entityModel.0/@fields.7 //@plugin/@serviceProvider/@entityModel.0/@relations.0 //@plugin/@serviceProvider/@entityModel.0/@relations.1 //@plugin/@serviceProvider/@entityModel.0/@relations.2 //@plugin/@serviceProvider/@entityModel.0/@relations.3 //@plugin/@serviceProvider/@entityModel.0/@relations.4" sortableColumns="//@plugin/@serviceProvider/@entityModel.0/@fields.0 //@plugin/@serviceProvider/@entityModel.0/@fields.1 //@plugin/@serviceProvider/@entityModel.0/@fields.2 //@plugin/@serviceProvider/@entityModel.0/@fields.3 //@plugin/@serviceProvider/@entityModel.0/@fields.4 //@plugin/@serviceProvider/@entityModel.0/@fields.5 //@plugin/@serviceProvider/@entityModel.0/@fields.6 //@plugin/@serviceProvider/@entityModel.0/@fields.7 //@plugin/@serviceProvider/@entityModel.0/@relations.0 //@plugin/@serviceProvider/@entityModel.0/@relations.1 //@plugin/@serviceProvider/@entityModel.0/@relations.2 //@plugin/@serviceProvider/@entityModel.0/@relations.3 //@plugin/@serviceProvider/@entityModel.0/@relations.4"/>
+      </page>
+      <page key="blood" entity="blood">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.1/@fields.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.1/@fields.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.1/@fields.0"/>
+      </page>
+      <page key="edu" entity="edu">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.2/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.2/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.2/@fields.0 //@plugin/@serviceProvider/@entityModel.2/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.2/@fields.0 //@plugin/@serviceProvider/@entityModel.2/@relations.0"/>
+      </page>
+      <page key="building" entity="building">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.3/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.3/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.3/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.3/@fields.0 //@plugin/@serviceProvider/@entityModel.3/@fields.1 //@plugin/@serviceProvider/@entityModel.3/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.3/@fields.0 //@plugin/@serviceProvider/@entityModel.3/@fields.1 //@plugin/@serviceProvider/@entityModel.3/@relations.0"/>
+      </page>
+      <page key="shift" entity="shift">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.4/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.4/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.4/@fields.2" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.4/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.4/@fields.0 //@plugin/@serviceProvider/@entityModel.4/@fields.1 //@plugin/@serviceProvider/@entityModel.4/@fields.2 //@plugin/@serviceProvider/@entityModel.4/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.4/@fields.0 //@plugin/@serviceProvider/@entityModel.4/@fields.1 //@plugin/@serviceProvider/@entityModel.4/@fields.2 //@plugin/@serviceProvider/@entityModel.4/@relations.0"/>
+      </page>
+      <page key="insurance" entity="insurance">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.5/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.5/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.5/@fields.2" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.5/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.5/@fields.0 //@plugin/@serviceProvider/@entityModel.5/@fields.1 //@plugin/@serviceProvider/@entityModel.5/@fields.2 //@plugin/@serviceProvider/@entityModel.5/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.5/@fields.0 //@plugin/@serviceProvider/@entityModel.5/@fields.1 //@plugin/@serviceProvider/@entityModel.5/@fields.2 //@plugin/@serviceProvider/@entityModel.5/@relations.0"/>
+      </page>
+      <page key="asset" entity="asset">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.6/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.6/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.6/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.6/@fields.0 //@plugin/@serviceProvider/@entityModel.6/@fields.1 //@plugin/@serviceProvider/@entityModel.6/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.6/@fields.0 //@plugin/@serviceProvider/@entityModel.6/@fields.1 //@plugin/@serviceProvider/@entityModel.6/@relations.0"/>
+      </page>
+      <page key="assetCat" entity="assetCat">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.7/@fields.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.7/@fields.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.7/@fields.0"/>
+      </page>
+      <page key="employee" entity="employee">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@fields.2" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.2" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.3" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.4" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.5" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.6" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.7" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.8" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.8/@fields.0 //@plugin/@serviceProvider/@entityModel.8/@fields.1 //@plugin/@serviceProvider/@entityModel.8/@fields.2 //@plugin/@serviceProvider/@entityModel.8/@relations.0 //@plugin/@serviceProvider/@entityModel.8/@relations.1 //@plugin/@serviceProvider/@entityModel.8/@relations.2 //@plugin/@serviceProvider/@entityModel.8/@relations.3 //@plugin/@serviceProvider/@entityModel.8/@relations.4 //@plugin/@serviceProvider/@entityModel.8/@relations.5 //@plugin/@serviceProvider/@entityModel.8/@relations.6 //@plugin/@serviceProvider/@entityModel.8/@relations.7 //@plugin/@serviceProvider/@entityModel.8/@relations.8" sortableColumns="//@plugin/@serviceProvider/@entityModel.8/@fields.0 //@plugin/@serviceProvider/@entityModel.8/@fields.1 //@plugin/@serviceProvider/@entityModel.8/@fields.2 //@plugin/@serviceProvider/@entityModel.8/@relations.0 //@plugin/@serviceProvider/@entityModel.8/@relations.1 //@plugin/@serviceProvider/@entityModel.8/@relations.2 //@plugin/@serviceProvider/@entityModel.8/@relations.3 //@plugin/@serviceProvider/@entityModel.8/@relations.4 //@plugin/@serviceProvider/@entityModel.8/@relations.5 //@plugin/@serviceProvider/@entityModel.8/@relations.6 //@plugin/@serviceProvider/@entityModel.8/@relations.7 //@plugin/@serviceProvider/@entityModel.8/@relations.8"/>
+      </page>
+      <page key="ability" entity="ability">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.9/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.9/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.9/@fields.0 //@plugin/@serviceProvider/@entityModel.9/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.9/@fields.0 //@plugin/@serviceProvider/@entityModel.9/@relations.0"/>
+      </page>
+      <page key="job" entity="job">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.10/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.10/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.10/@fields.0 //@plugin/@serviceProvider/@entityModel.10/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.10/@fields.0 //@plugin/@serviceProvider/@entityModel.10/@relations.0"/>
+      </page>
+      <page key="workTime" entity="workTime">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.11/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.11/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.11/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.11/@fields.0 //@plugin/@serviceProvider/@entityModel.11/@fields.1 //@plugin/@serviceProvider/@entityModel.11/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.11/@fields.0 //@plugin/@serviceProvider/@entityModel.11/@fields.1 //@plugin/@serviceProvider/@entityModel.11/@relations.0"/>
+      </page>
+      <page key="jobCategory" entity="jobCategory">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.12/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.12/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.12/@relations.0" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.12/@fields.0 //@plugin/@serviceProvider/@entityModel.12/@fields.1 //@plugin/@serviceProvider/@entityModel.12/@relations.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.12/@fields.0 //@plugin/@serviceProvider/@entityModel.12/@fields.1 //@plugin/@serviceProvider/@entityModel.12/@relations.0"/>
+      </page>
+      <page key="diabled_employee" entity="employee" overrideTitle="Retyred Employes">
+        <form>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@fields.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@fields.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@fields.2" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.0" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.1" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.2" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.3" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.4" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.5" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.6" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.7" layout="Fill"/>
+          <fieldLayout field="//@plugin/@serviceProvider/@entityModel.8/@relations.8" layout="Fill"/>
+        </form>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.8/@fields.0 //@plugin/@serviceProvider/@entityModel.8/@fields.1 //@plugin/@serviceProvider/@entityModel.8/@fields.2 //@plugin/@serviceProvider/@entityModel.8/@relations.0 //@plugin/@serviceProvider/@entityModel.8/@relations.1 //@plugin/@serviceProvider/@entityModel.8/@relations.2 //@plugin/@serviceProvider/@entityModel.8/@relations.3 //@plugin/@serviceProvider/@entityModel.8/@relations.4 //@plugin/@serviceProvider/@entityModel.8/@relations.5 //@plugin/@serviceProvider/@entityModel.8/@relations.6 //@plugin/@serviceProvider/@entityModel.8/@relations.7 //@plugin/@serviceProvider/@entityModel.8/@relations.8" sortableColumns="//@plugin/@serviceProvider/@entityModel.8/@fields.0 //@plugin/@serviceProvider/@entityModel.8/@fields.1 //@plugin/@serviceProvider/@entityModel.8/@fields.2 //@plugin/@serviceProvider/@entityModel.8/@relations.0 //@plugin/@serviceProvider/@entityModel.8/@relations.1 //@plugin/@serviceProvider/@entityModel.8/@relations.2 //@plugin/@serviceProvider/@entityModel.8/@relations.3 //@plugin/@serviceProvider/@entityModel.8/@relations.4 //@plugin/@serviceProvider/@entityModel.8/@relations.5 //@plugin/@serviceProvider/@entityModel.8/@relations.6 //@plugin/@serviceProvider/@entityModel.8/@relations.7 //@plugin/@serviceProvider/@entityModel.8/@relations.8" extendWhereClause="employee.active IS NOT 1"/>
+      </page>
+      <reusableLayout name="Fill" col_lg="12"/>
+      <reusableLayout name="Half" col_md="6"/>
+      <reusableLayout name="Quarter" col_md="3"/>
+    </gui>
+    <serviceProvider>
+      <extend name="total_employ_count" checkAccessControl="true"/>
+      <entityModel key="person" label="Person" labelPlural="People" titleScript="item.name+' '+item.family">
+        <fields key="name" label="Firstname" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="family" label="Lastname" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="code" label="National Code" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#nationalCode"/>
+        </fields>
+        <fields key="birth" label="Birthdate" index="true">
+          <type href="FieldTypeRepo.crudrest#date"/>
+        </fields>
+        <fields key="description" label="Description">
+          <type href="FieldTypeRepo.crudrest#text"/>
+        </fields>
+        <fields key="gender" label="Gender" required="true">
+          <type href="FieldTypeRepo.crudrest#gender"/>
+        </fields>
+        <fields key="mobile" label="Mobile" index="true" unique="true">
+          <type href="FieldTypeRepo.crudrest#mobile"/>
+        </fields>
+        <fields key="phone" label="Phone">
+          <type href="FieldTypeRepo.crudrest#phone"/>
+        </fields>
+        <relations key="blood" label="Blood Group" entity="blood"/>
+        <relations key="degree" label="Degrees" entity="edu" many="true" opposite="//@plugin/@serviceProvider/@entityModel.2/@relations.0"/>
+        <relations key="father" label="Father" entity="person" opposite="//@plugin/@serviceProvider/@entityModel.0/@relations.3"/>
+        <relations key="child" label="Children" entity="person" many="true" opposite="//@plugin/@serviceProvider/@entityModel.0/@relations.2"/>
+        <relations key="employee" label="Employee" unique="true" entity="employee" opposite="//@plugin/@serviceProvider/@entityModel.8/@relations.0"/>
+      </entityModel>
+      <entityModel key="blood" label="Blood Group" labelPlural="Blood Groups" titleScript="item.title">
+        <fields key="title" label="Title" index="true" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+      </entityModel>
+      <entityModel key="edu" label="Education Level" labelPlural="Education Levels" titleScript="item.title">
+        <fields key="title" label="Title" index="true" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <relations key="person" label="People" entity="person" many="true" opposite="//@plugin/@serviceProvider/@entityModel.0/@relations.1"/>
+      </entityModel>
+      <entityModel key="building" label="Building" labelPlural="Buildings" titleScript="item.title">
+        <fields key="title" label="Title" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="capacity" label="Capacity" required="true">
+          <type href="FieldTypeRepo.crudrest#int"/>
+        </fields>
+        <relations key="employ" label="Employees" entity="person" many="true"/>
+      </entityModel>
+      <entityModel key="shift" label="Shift" labelPlural="Shifts" titleScript="item.title">
+        <fields key="title" label="Title" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="start" label="Start" required="true">
+          <type href="FieldTypeRepo.crudrest#time"/>
+        </fields>
+        <fields key="end" label="End" required="true">
+          <type href="FieldTypeRepo.crudrest#time"/>
+        </fields>
+        <relations key="employe" label="Employees" entity="person" many="true"/>
+      </entityModel>
+      <entityModel key="insurance" label="Insurance" labelPlural="Insurances" titleScript="item.title">
+        <fields key="title" label="Title" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="start" label="Start" required="true">
+          <type href="FieldTypeRepo.crudrest#datetime"/>
+        </fields>
+        <fields key="end" label="End" required="true">
+          <type href="FieldTypeRepo.crudrest#datetime"/>
+        </fields>
+        <relations key="person" label="People" entity="employee" many="true" opposite="//@plugin/@serviceProvider/@entityModel.8/@relations.2"/>
+      </entityModel>
+      <entityModel key="asset" label="Asset" labelPlural="Assets" titleScript="item.title">
+        <fields key="title" label="Title" index="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="code" label="Asset Code">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <relations key="owner" label="Owner" entity="employee" opposite="//@plugin/@serviceProvider/@entityModel.8/@relations.4"/>
+        <relations key="cat" label="Category" entity="assetCat"/>
+      </entityModel>
+      <entityModel key="assetCat" label="Asset Category" labelPlural="Asset Categories" titleScript="item.title">
+        <fields key="title" label="Title" index="true" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+      </entityModel>
+      <entityModel key="employee" label="Employee" labelPlural="Employees" titleScript="item.code">
+        <fields key="code" label="Personal Code" index="true" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="active" label="Is Active">
+          <type href="FieldTypeRepo.crudrest#checkBox"/>
+        </fields>
+        <fields key="start" label="Start Date">
+          <type href="FieldTypeRepo.crudrest#date"/>
+        </fields>
+        <relations key="person" label="Person" unique="true" entity="person" opposite="//@plugin/@serviceProvider/@entityModel.0/@relations.4"/>
+        <relations key="shift" label="Work Shift" entity="shift" opposite="//@plugin/@serviceProvider/@entityModel.4/@relations.0"/>
+        <relations key="insurance" label="Insurances" entity="insurance" many="true" opposite="//@plugin/@serviceProvider/@entityModel.5/@relations.0"/>
+        <relations key="workplace" label="Workplace" entity="building" many="true" opposite="//@plugin/@serviceProvider/@entityModel.3/@relations.0"/>
+        <relations key="asset" label="Assets" entity="asset" many="true" opposite="//@plugin/@serviceProvider/@entityModel.6/@relations.0"/>
+        <relations key="ability" label="Abilities" entity="ability" many="true" opposite="//@plugin/@serviceProvider/@entityModel.9/@relations.0"/>
+        <relations key="job" label="Job" entity="job" opposite="//@plugin/@serviceProvider/@entityModel.10/@relations.0"/>
+        <relations key="workTime" label="Work Times" entity="workTime" many="true"/>
+        <relations key="cat" label="Job Category" entity="jobCategory" opposite="//@plugin/@serviceProvider/@entityModel.12/@relations.0"/>
+      </entityModel>
+      <entityModel key="ability" label="Ability" labelPlural="Abilities" titleScript="item.title">
+        <fields key="title" label="Title" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <relations key="employee" label="Employee" entity="employee" many="true" opposite="//@plugin/@serviceProvider/@entityModel.8/@relations.5"/>
+      </entityModel>
+      <entityModel key="job" label="Job" labelPlural="Jobs" titleScript="item.title">
+        <fields key="title" label="Title" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <relations key="employee" label="Employee" entity="employee" many="true" opposite="//@plugin/@serviceProvider/@entityModel.8/@relations.6"/>
+      </entityModel>
+      <entityModel key="workTime" label="Work Time" labelPlural="Work Times" titleScript="item.id">
+        <fields key="enter" label="Enter" required="true">
+          <type href="FieldTypeRepo.crudrest#datetime"/>
+        </fields>
+        <fields key="exit" label="Exit" required="true">
+          <type href="FieldTypeRepo.crudrest#datetime"/>
+        </fields>
+        <relations key="employee" label="Employee" unique="true" entity="employee"/>
+      </entityModel>
+      <entityModel key="jobCategory" label="Job Category" labelPlural="Job Categories" titleScript="item.title">
+        <fields key="title" label="Title" index="true" unique="true" required="true">
+          <type href="FieldTypeRepo.crudrest#title"/>
+        </fields>
+        <fields key="paymentRate" label="Payment Rate" required="true">
+          <type href="FieldTypeRepo.crudrest#int"/>
+        </fields>
+        <relations key="employee" label="Employees" entity="employee" many="true" opposite="//@plugin/@serviceProvider/@entityModel.8/@relations.8"/>
+      </entityModel>
+    </serviceProvider>
+  </plugin>
+  <repository href="FieldTypeRepo.crudrest#/"/>
+</crudrest:PluginCreator>
