@@ -31,7 +31,7 @@ WPCrudRest is currently only available as a plugin for Eclipse. It used [Sirius]
 6. Click on "Finish" button to create modeling project
 
 ### D. Create "Crudrest Model"
-Note: Field type repository
+Note: Field type repository model use to define entities field types and if not exist modelling and generating code is not possible! this is recommended to use [exist pre-built field repository model](https://github.com/asadidebuger/WPCrudRest/blob/main/models/FieldTypeRepo.crudrest)!
 1. Copy [FieldTypeRepo.crudrest](https://github.com/asadidebuger/WPCrudRest/blob/main/models/FieldTypeRepo.crudrest "FieldTypeRepo.crudrest") from [models](https://github.com/asadidebuger/WPCrudRest/tree/main/models "models") directory to project model *(or root)* directory
 2. You can simply copy one of sample models from [models](https://github.com/asadidebuger/WPCrudRest/tree/main/models) repository directory)  and jump to next step
 2. Right click on project root in Eclipse Project (or Model) explorer
