@@ -1,6 +1,6 @@
 
 
-[Project Home Webpage](https://asadidebuger.github.io/WPCrudRest/)
+[Project Home Webpage](https://asadidebuger.github.io/wpcrudrest-docs/)
 # WPCrudRest
 ### A Powerful Wordpress CRUD & RESTful plugin Generator *(Eclipse plugin)*
 ## Introduction
