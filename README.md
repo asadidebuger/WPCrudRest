@@ -65,12 +65,25 @@ Note: Field type repository model use to define entities field types and if not 
 6. Create new modeling project -> [Watch video](https://youtu.be/WUnkY3NEJus)
 7. Start modeling using graphical editor -> [Watch video](https://youtu.be/pJbHDgvNWM0)
 ## Screenshots
-Graphical modeling editor screenshot:
+#### Graphical modeling editor screenshot:
 ![Graphical modeling editor screenshot](screenshots/graphical-modeling-screenshot.png)
 
-Generate WordPress plugin code from model screenshot:
-![Graphical modeling editor screenshot](screenshots/generate-code-screenshot.png)
+#### Generate WordPress plugin code from model screenshot:
+![Generate WordPress plugin code from model screenshot](screenshots/generate-code-screenshot.png)
 
-Generated WordPress plugin code screenshot:
-![Graphical modeling editor screenshot](screenshots/generated-plugin-code-screenshot.png)
+#### Generated WordPress plugin code screenshot *(zip this directory and install it on Wordpress as plugin or just copy it to WordPress plugin directory)*:
+![Generated WordPress plugin code screenshot](screenshots/generated-plugin-code-screenshot.png)
 
+___
+
+#### WordPress plugin pages:
+![WordPress plugin pages](screenshots/microhrm-pages.png)
+
+#### WordPress plugin access controll (AC) page:
+![WordPress plugin access controll (AC) page](screenshots/microhrm-options.png)
+
+#### WordPress plugin list item page:
+![WordPress plugin list item page](screenshots/microhrm-list-items.png)
+
+#### WordPress plugin create (or edit) item page:
+![WordPress plugin create (or edit) item page](screenshots/microhrm-edit-item.png)
