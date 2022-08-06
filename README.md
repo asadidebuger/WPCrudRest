@@ -64,3 +64,13 @@ Note: Field type repository model use to define entities field types and if not 
 5. Deploy (install) WPCrudRest as Eclipse plugin -> [Watch video](https://youtu.be/mfCE0lGbDAE)
 6. Create new modeling project -> [Watch video](https://youtu.be/WUnkY3NEJus)
 7. Start modeling using graphical editor -> [Watch video](https://youtu.be/pJbHDgvNWM0)
+## Screenshots
+Graphical modeling editor screenshot:
+![Graphical modeling editor screenshot](screenshots/graphical-modeling-screenshot.png)
+
+Generate WordPress plugin code from model screenshot:
+![Graphical modeling editor screenshot](screenshots/generate-code-screenshot.png)
+
+Generated WordPress plugin code screenshot:
+![Graphical modeling editor screenshot](screenshots/generated-plugin-code-screenshot.png)
+
