@@ -55,3 +55,12 @@ Note: Field type repository model use to define entities field types and if not 
 2. Right click on model
 3. Choose "WP Crud-Rest" -> "Generate WordPress Plugin" from popup menu
 4. Plugin code will be generated in "generated WPP" directory on project root directory
+
+## Guidance Videos
+1. Download Eclipse modeling tools -> [Watch video](https://youtu.be/RB18NMginCs)
+2. Install (extract) Eclipse modeling tools package -> [Watch video](https://youtu.be/AvLZi5cKzPc)
+3. Download WPCrudRest -> [Watch video](https://youtu.be/MIR8y91KHbU)
+4. Install Acceleo as Eclipse plugin -> [Watch video](https://youtu.be/qH5_xmrrvH0)
+5. Deploy (install) WPCrudRest as Eclipse plugin -> [Watch video](https://youtu.be/mfCE0lGbDAE)
+6. Create new modeling project -> [Watch video](https://youtu.be/WUnkY3NEJus)
+7. Start modeling using graphical editor -> [Watch video](https://youtu.be/pJbHDgvNWM0)
