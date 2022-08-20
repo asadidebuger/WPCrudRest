@@ -97,5 +97,6 @@ ___
 #### WordPress plugin create (or edit) item page:
 ![WordPress plugin create (or edit) item page](screenshots/microhrm-edit-item.png)
 
-#### WordPress plugin RESTful webservice tested by Postman:
-![WordPress plugin RESTful webservice tested by Postman](screenshots/microhrm-rest-postman.png)
+#### WordPress plugin RESTful webservice tested by RESTClient:
+![WordPress plugin RESTful webservice tested by RESTClient](screenshots/microhrm-rest.png)
+![WordPress plugin RESTful webservice tested by RESTClient](screenshots/microhrm-rest2.png)
