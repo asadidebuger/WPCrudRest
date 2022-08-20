@@ -6,6 +6,7 @@
 ## Introduction
 This artifact is the result of a master's thesis in Isfahan University and contains set of Eclipse plugins that enable you to generate a WordPress plugin by graphical modelling. We use Model-Driven approach to generate codes from model.     
 WPCrudRest is currently only available as a plugin for Eclipse. It used [Sirius](https://www.eclipse.org/sirius/) to provide a graphical modelling environment and use [Acceleo](https://www.eclipse.org/acceleo/download.html) to transform models to code.
+## [Please participate in the evaluation of the WPCrudRest framework](https://form.avalform.com/view.php?id=36530375)
 ## Installation 
 ### *Tested on [Eclipse Modeling Tools 2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-modeling-tools)  & [windows 10 64X OS](https://www.microsoft.com/en-us/software-download/windows10)  with  [Java 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)*
 
@@ -51,7 +52,15 @@ Note: Field type repository model use to define entities field types and if not 
 
 ### F. Generate WordPress Plugin Code
 
-1. If you want to deploy the plugin directly on your local WordPress, set "WP_HOME" path as Wordpress root directory in system environment ([*Click here for more help*](https://dev.to/kapilgorve/set-environment-variable-in-windows-and-wsl-linux-in-terminal-3mg4))
+1. If you want to deploy the plugin directly on your local WordPress, set "WP_HOME" path as Wordpress root directory in system environment 
+   
+        Windows OS:
+                    setx WP_HOME WORDPRESS_PATH /M
+        Example: 
+                    setx WP_HOME C:\xampp7.1\htdocs\projects\crudrest /M
+    [*Click here for more help*](https://dev.to/kapilgorve/set-environment-variable-in-windows-and-wsl-linux-in-terminal-3mg4)
+   
+
 2. Right click on model
 3. Choose "WP Crud-Rest" -> "Generate WordPress Plugin" from popup menu
 4. Plugin code will be generated in "generated WPP" directory on project root directory
@@ -87,3 +96,6 @@ ___
 
 #### WordPress plugin create (or edit) item page:
 ![WordPress plugin create (or edit) item page](screenshots/microhrm-edit-item.png)
+
+#### WordPress plugin RESTful webservice tested by Postman:
+![WordPress plugin RESTful webservice tested by Postman](screenshots/microhrm-rest-postman.png)
