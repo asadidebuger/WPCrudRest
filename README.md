@@ -82,7 +82,7 @@ Note: Field type repository model use to define entities field types and if not 
 
 #### Generated WordPress plugin code screenshot *(zip this directory and install it on Wordpress as plugin or just copy it to WordPress plugin directory)*:
 ![Generated WordPress plugin code screenshot](screenshots/generated-plugin-code-screenshot.png)
-
+![Generated WordPress plugin code screenshot](screenshots/generated-plugin-code-screenshot2.png)![Generated WordPress plugin code screenshot](screenshots/generated-plugin-code-screenshot3.png)
 ___
 
 #### WordPress plugin pages:
