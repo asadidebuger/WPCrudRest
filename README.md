@@ -6,7 +6,12 @@
 ## Introduction
 This artifact is the result of a master's thesis in Isfahan University and contains set of Eclipse plugins that enable you to generate a WordPress plugin by graphical modelling. We use Model-Driven approach to generate codes from model.     
 WPCrudRest is currently only available as a plugin for Eclipse. It used [Sirius](https://www.eclipse.org/sirius/) to provide a graphical modelling environment and use [Acceleo](https://www.eclipse.org/acceleo/download.html) to transform models to code.
-## [Please participate in the evaluation of the WPCrudRest framework](https://form.avalform.com/view.php?id=36530375)
+## Please participate in the evaluation
+You can participate in the evaluation of the WPCrudRest framework throw bellow links:
+* **[Evaluation participate (English language)](https://github.com/asadidebuger/wpcrudrest-docs/blob/main/_posts/2022-08-21-evaluation-en.markdown)**
+
+&#x202b;
+* **[مشارکت در ارزیابی (فارسی)](https://github.com/asadidebuger/wpcrudrest-docs/blob/main/_posts/2022-08-20-evaluation-fa.markdown)**
 ## Installation 
 ### *Tested on [Eclipse Modeling Tools 2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-modeling-tools)  & [windows 10 64X OS](https://www.microsoft.com/en-us/software-download/windows10)  with  [Java 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)*
 
