@@ -17,7 +17,7 @@ You can participate in the evaluation of the WPCrudRest framework through the fo
 
 ### You can follow the steps below to deploy and use the framework:
 
-_Note: You can follow [**this link**](https://www.cloudways.com/blog/install-wordpress-locally/) to **deploy wordpress on your personal computer** if you are unfamiliar with WordPress!_
+_Note: You can follow [**this link**](https://www.cloudways.com/blog/install-wordpress-locally/) to **deploy WordPress on your personal computer** if you are unfamiliar with WordPress!_
 
 ### A. Install Eclipse
 1. Download [Eclipse Modeling Tools ](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-modeling-tools)
