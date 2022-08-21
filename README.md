@@ -16,8 +16,10 @@ You can participate in the evaluation of the WPCrudRest framework through the fo
 ### *Tested on [Eclipse Modeling Tools 2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-modeling-tools)  & [windows 10 64X OS](https://www.microsoft.com/en-us/software-download/windows10)  with  [Java 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)*
 
 ### You can follow the steps below to deploy and use the framework:
+
+_Note: You can follow [**this link**](https://www.cloudways.com/blog/install-wordpress-locally/) to **deploy wordpress on your personal computer** if you are unfamiliar with WordPress!_
+
 ### A. Install Eclipse
-_Note:_ You can follow [**this link**](https://www.cloudways.com/blog/install-wordpress-locally/) to **deploy wordpress on your personal computer** if you are unfamiliar with WordPress! 
 1. Download [Eclipse Modeling Tools ](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-modeling-tools)
 2. Install (unzip) downloaded Eclipse package
 
