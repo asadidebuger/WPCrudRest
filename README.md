@@ -25,7 +25,7 @@ _WPCrudRest Framework demo:_
 7. Deploy WordPress (on Windows OS) - Deploy (Install) WordPress -> [Watch video](https://www.aparat.com/v/mY6i8)
 8. Generate and deploy WordPress plugin -> [Watch video](https://www.aparat.com/v/W7yP9)
 
-## Installation instructions:
+## Installation and use instructions:
 
 ### You can follow the steps below to deploy and use the framework:
 
