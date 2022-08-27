@@ -11,12 +11,21 @@ You can participate in the evaluation of the WPCrudRest framework through the fo
 &#x202b;
 * **[مشارکت در ارزیابی (فارسی)](https://github.com/asadidebuger/wpcrudrest-docs/blob/main/_posts/2022-08-20-evaluation-fa.markdown)**
 
-WPCrudRest Framework demo:
+_WPCrudRest Framework demo:_
 ![WPCrudRest WordPress plugin creator](screenshots/wpcrudrest.gif)
-
-
-## Installation 
 ### *Tested on [Eclipse Modeling Tools 2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-modeling-tools)  & [windows 10 64X OS](https://www.microsoft.com/en-us/software-download/windows10)  with  [Java 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)*
+
+## Guidance Videos
+1. Download Eclipse modeling tools and Install (extract) it -> [Watch video](https://www.aparat.com/v/pci6K)
+2. Download and deploy WPCrudRest as Eclipse plugin -> [Watch video](https://www.aparat.com/v/KICrQ)
+3. Install Acceleo as Eclipse plugin -> [Watch video](https://www.aparat.com/v/Uh1zM)
+4. Start to modeling (Create new modeling project) -> [Watch video](https://www.aparat.com/v/1uQBW)
+5. Modeling a simple library manager plugin (example) -> [Watch video](https://www.aparat.com/v/j4Bqp)
+6. Deploy WordPress (on Windows OS) - Install XAMPP -> [Watch video](https://www.aparat.com/v/1owaH)
+7. Deploy WordPress (on Windows OS) - Deploy (Install) WordPress -> [Watch video](https://www.aparat.com/v/mY6i8)
+8. Generate and deploy WordPress plugin -> [Watch video](https://www.aparat.com/v/W7yP9)
+
+## Installation instructions:
 
 ### You can follow the steps below to deploy and use the framework:
 
@@ -76,14 +85,7 @@ Note: Field type repository model use to define entities field types and if not 
 3. Choose "WP Crud-Rest" -> "Generate WordPress Plugin" from popup menu
 4. Plugin code will be generated in "generated WPP" directory on project root directory
 
-## Guidance Videos
-1. Download Eclipse modeling tools -> [Watch video](https://youtu.be/RB18NMginCs)
-2. Install (extract) Eclipse modeling tools package -> [Watch video](https://youtu.be/AvLZi5cKzPc)
-3. Download WPCrudRest -> [Watch video](https://youtu.be/MIR8y91KHbU)
-4. Install Acceleo as Eclipse plugin -> [Watch video](https://youtu.be/qH5_xmrrvH0)
-5. Deploy (install) WPCrudRest as Eclipse plugin -> [Watch video](https://youtu.be/mfCE0lGbDAE)
-6. Create new modeling project -> [Watch video](https://youtu.be/WUnkY3NEJus)
-7. Start modeling using graphical editor -> [Watch video](https://youtu.be/pJbHDgvNWM0)
+
 ## Screenshots
 #### Graphical modeling editor screenshot:
 ![Graphical modeling editor screenshot](screenshots/graphical-modeling-screenshot.png)
