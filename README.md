@@ -1,5 +1,3 @@
-
-
 [Project Home Webpage](https://asadidebuger.github.io/wpcrudrest-docs/)
 # WPCrudRest
 ### A Powerful Wordpress CRUD & RESTful plugin Generator *(Eclipse plugin)*
@@ -12,6 +10,11 @@ You can participate in the evaluation of the WPCrudRest framework through the fo
 
 &#x202b;
 * **[مشارکت در ارزیابی (فارسی)](https://github.com/asadidebuger/wpcrudrest-docs/blob/main/_posts/2022-08-20-evaluation-fa.markdown)**
+
+WPCrudRest Framework demo:
+![WPCrudRest WordPress plugin creator](screenshots/wpcrudrest.gif)
+
+
 ## Installation 
 ### *Tested on [Eclipse Modeling Tools 2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-modeling-tools)  & [windows 10 64X OS](https://www.microsoft.com/en-us/software-download/windows10)  with  [Java 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)*
 
