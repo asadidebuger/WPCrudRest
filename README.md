@@ -24,6 +24,10 @@ _WPCrudRest Framework demo:_
 7. Deploy WordPress (on Windows OS) - Deploy (Install) WordPress -> [Youtube](https://youtu.be/NnFDoHHKAEE) - [Aparat](https://www.aparat.com/v/mY6i8)
 8. Generate and deploy WordPress plugin -> [Youtube](https://youtu.be/uAj5vbeoikU) - [Aparat](https://www.aparat.com/v/W7yP9)
 
+### You can access playlist by visting below links:
+- [Youtube play-list](https://www.youtube.com/playlist?list=PL8kI35qv4aXaRaETVfC0CgzlgtKy6e6Gk)
+- [Aparat play-list](https://www.aparat.com/v/pci6K?playlist=1773307)
+
 ## Installation and use instructions:
 
 ### You can follow the steps below to deploy and use the framework:
