@@ -16,14 +16,14 @@ _WPCrudRest Framework demo:_
 ### *Tested on [Eclipse Modeling Tools 2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-modeling-tools)  & [windows 10 64X OS](https://www.microsoft.com/en-us/software-download/windows10)  with  [Java 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)*
 
 ## Guidance Videos
-1. Download Eclipse modeling tools and Install (extract) it -> [Watch video](https://www.aparat.com/v/pci6K)
-2. Download and deploy WPCrudRest as Eclipse plugin -> [Watch video](https://www.aparat.com/v/KICrQ)
-3. Install Acceleo as Eclipse plugin -> [Watch video](https://www.aparat.com/v/Uh1zM)
-4. Start to modeling (Create new modeling project) -> [Watch video](https://www.aparat.com/v/1uQBW)
-5. Modeling a simple library manager plugin (example) -> [Watch video](https://www.aparat.com/v/j4Bqp)
-6. Deploy WordPress (on Windows OS) - Install XAMPP -> [Watch video](https://www.aparat.com/v/1owaH)
-7. Deploy WordPress (on Windows OS) - Deploy (Install) WordPress -> [Watch video](https://www.aparat.com/v/mY6i8)
-8. Generate and deploy WordPress plugin -> [Watch video](https://www.aparat.com/v/W7yP9)
+1. Download Eclipse modeling tools and Install (extract) it -> Watch video in: [Youtube](https://youtu.be/FsehvXbDuf8) - [Aparat](https://www.aparat.com/v/pci6K)
+2. Download and deploy WPCrudRest as Eclipse plugin -> Watch video in: [Youtube](https://youtu.be/xeCBqQRdBIg) - [Aparat](https://www.aparat.com/v/KICrQ)
+3. Install Acceleo as Eclipse plugin -> [Youtube](https://youtu.be/kwBskje3lfk) - [Aparat](https://www.aparat.com/v/Uh1zM)
+4. Start to modeling (Create new modeling project) -> [Youtube](https://youtu.be/F5uPJMvkYNI) - [Aparat](https://www.aparat.com/v/1uQBW)
+5. Modeling a simple library manager plugin (example) -> [Youtube](https://youtu.be/8z_OJiiTTws) - [Aparat](https://www.aparat.com/v/j4Bqp)
+6. Deploy WordPress (on Windows OS) - Install XAMPP -> [Youtube](https://youtu.be/EqW5lSWWsP0) - [Aparat](https://www.aparat.com/v/1owaH)
+7. Deploy WordPress (on Windows OS) - Deploy (Install) WordPress -> [Youtube](https://youtu.be/NnFDoHHKAEE) - [Aparat](https://www.aparat.com/v/mY6i8)
+8. Generate and deploy WordPress plugin -> [Youtube](https://youtu.be/uAj5vbeoikU) - [Aparat](https://www.aparat.com/v/W7yP9)
 
 ## Installation and use instructions:
 
