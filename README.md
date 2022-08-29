@@ -1,9 +1,8 @@
-[Project Home Webpage](https://asadidebuger.github.io/wpcrudrest-docs/)
 # WPCrudRest
-### A Powerful Wordpress CRUD & RESTful plugin Generator *(Eclipse plugin)*
+### A Powerful Wordpress CRUD & RESTful plugin Generator framework
 ## Introduction
-This artifact is the result of a master's thesis in Isfahan University and contains set of Eclipse plugins that enable you to generate a WordPress plugin by graphical modelling. We use Model-Driven approach to generate codes from model.     
-WPCrudRest is currently only available as a plugin for Eclipse. It used [Sirius](https://www.eclipse.org/sirius/) to provide a graphical modelling environment and use [Acceleo](https://www.eclipse.org/acceleo/download.html) to transform models to code.
+This artifact is the result of a master's thesis in [MDSE group of Isfahan University](https://mdse.ui.ac.ir), contains set of Eclipse plugins that enable you to generate a WordPress plugin by graphical modelling. We use Model-Driven approach to generate codes from model.     
+WPCrudRest framework is currently only available as a plugin for Eclipse. It used [Sirius](https://www.eclipse.org/sirius/) to provide a graphical modelling environment and use [Acceleo](https://www.eclipse.org/acceleo/download.html) to transform models to code.
 ## Please participate in the evaluation
 You can participate in the evaluation of the WPCrudRest framework through the following links:
 * **[Evaluation participate (English language)](https://github.com/asadidebuger/wpcrudrest-docs/blob/main/_posts/2022-08-20-evaluation-en.markdown)**
@@ -41,7 +40,7 @@ _Note: You can follow [**this link**](https://www.cloudways.com/blog/install-wor
 2. Unzip downloaded package and copy [dropins](https://github.com/asadidebuger/WPCrudRest/tree/main/dropins "dropins") directory to eclipse installation path (e.g  C:\Program Files\eclipse)
 3. Execute Eclipse
 4. Install [Acceleo](https://www.eclipse.org/acceleo/download.html) plugin
-5. Install [Sirius](https://www.eclipse.org/sirius/)  plugin *(preinstall in newer versions)*
+5. Install [Sirius](https://www.eclipse.org/sirius/)  plugin if is not installed *(preinstall in newer versions)*
 6. Restart Eclipse
 
 ### C. Create new Modeling Project
