@@ -1,4 +1,4 @@
-# WPCrudRest
+# WPCrudRest : a WordPress plugin creator (plugin code generator) tool
 ### A Powerful Wordpress CRUD & RESTful plugin Generator framework
 ## Introduction
 This artifact is the result of a master's thesis in [MDSE research group of Isfahan University](https://mdse.ui.ac.ir), contains set of Eclipse plugins that enable you to generate a WordPress plugin by graphical modelling. We use Model-Driven approach to generate codes from model.     
