@@ -1,3 +1,6 @@
+# WordPress Plugin generator tool
+This files are a set of Eclipse plugins that enable you to create WordPress plugins very fast and simply using a graphical editor.
+
 ## Installation:
 1. Copy this folder to Eclipse installation path to install as Eclipse plugin
 2. Restart Eclipse
