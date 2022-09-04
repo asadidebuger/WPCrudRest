@@ -75,7 +75,7 @@ Note: Field type repository model use to define entities field types and if not 
 
 ### F. Generate WordPress Plugin Code
 
-1. If you want to deploy the plugin directly on your local WordPress, set "WP_HOME" path as Wordpress root directory in system environment 
+1. *If you want to deploy the plugin directly on your local WordPress*, set "WP_HOME" path as Wordpress root directory in system environment 
    
         Windows OS:
                     setx WP_HOME WORDPRESS_PATH /M
