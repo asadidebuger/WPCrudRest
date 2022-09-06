@@ -56,9 +56,9 @@ _Note: You can follow [**this link**](https://www.cloudways.com/blog/install-wor
 6. Click on "Finish" button to create modeling project
 
 ### D. Create "Crudrest Model"
-Note: Field type repository model use to define entities field types and if not exist modelling and generating code is not possible! this is recommended to use [exist pre-built field repository model](https://github.com/asadidebuger/WPCrudRest/blob/main/models/FieldTypeRepo.crudrest)!
+Note: The field type repository model is used to define entities' field types and if dosn't exist, modelling and generating code is not possible! This is recommended to use [exist pre-built field repository model](https://github.com/asadidebuger/WPCrudRest/blob/main/models/FieldTypeRepo.crudrest)!
 1. Copy [FieldTypeRepo.crudrest](https://github.com/asadidebuger/WPCrudRest/blob/main/models/FieldTypeRepo.crudrest "FieldTypeRepo.crudrest") from [models](https://github.com/asadidebuger/WPCrudRest/tree/main/models "models") directory to project model *(or root)* directory
-2. You can simply copy one of sample models from [models](https://github.com/asadidebuger/WPCrudRest/tree/main/models) repository directory)  and jump to next step
+2. You can simply copy one of the sample models from the [models](https://github.com/asadidebuger/WPCrudRest/tree/main/models) repository directory and jump to the next step
 2. Right click on project root in Eclipse Project (or Model) explorer
 3. Choose "New" ->" Other" item from popup menu
 4. In "Select a wizard" window,  search for "Crudrest Model" an choose it
