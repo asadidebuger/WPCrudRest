@@ -4,4 +4,4 @@ This directory contains the field type repository model and some sample models
 - [hrm.crudrest](https://github.com/asadidebuger/WPCrudRest/blob/main/models/hrm.crudrest): A Human Resource Management system plugin for wordpress (sample model)
 - [library.crudrest](https://github.com/asadidebuger/WPCrudRest/blob/main/models/library.crudrest): A simple library management system plugin for WordPress model (sample model)
 
-If you don't know how to use this files to generate WordPress plugins, please watch [Tutorial videos](https://github.com/asadidebuger/WPCrudRest#guidance-videos)
+If you don't know how to use these files to generate WordPress plugins, please watch [Tutorial videos](https://github.com/asadidebuger/WPCrudRest#guidance-videos)
