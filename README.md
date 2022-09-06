@@ -18,13 +18,13 @@ _WPCrudRest Framework and created WordPress plugin demo:_
 1. Download Eclipse modeling tools and Install (extract) it -> Watch video in: [Youtube](https://youtu.be/FsehvXbDuf8) - [Aparat](https://www.aparat.com/v/pci6K)
 2. Download and deploy WPCrudRest as Eclipse plugin -> Watch video in: [Youtube](https://youtu.be/xeCBqQRdBIg) - [Aparat](https://www.aparat.com/v/KICrQ)
 3. Install Acceleo as Eclipse plugin -> [Youtube](https://youtu.be/kwBskje3lfk) - [Aparat](https://www.aparat.com/v/Uh1zM)
-4. Start to modeling (Create new modeling project) -> [Youtube](https://youtu.be/F5uPJMvkYNI) - [Aparat](https://www.aparat.com/v/1uQBW)
-5. Modeling a simple library manager plugin (example) -> [Youtube](https://youtu.be/8z_OJiiTTws) - [Aparat](https://www.aparat.com/v/j4Bqp)
+4. Start modeling (Create new modeling project) -> [Youtube](https://youtu.be/F5uPJMvkYNI) - [Aparat](https://www.aparat.com/v/1uQBW)
+5. Model a simple library manager plugin (example) -> [Youtube](https://youtu.be/8z_OJiiTTws) - [Aparat](https://www.aparat.com/v/j4Bqp)
 6. Deploy WordPress (on Windows OS) - Install XAMPP -> [Youtube](https://youtu.be/EqW5lSWWsP0) - [Aparat](https://www.aparat.com/v/1owaH)
 7. Deploy WordPress (on Windows OS) - Deploy (Install) WordPress -> [Youtube](https://youtu.be/NnFDoHHKAEE) - [Aparat](https://www.aparat.com/v/mY6i8)
 8. Generate and deploy WordPress plugin -> [Youtube](https://youtu.be/uAj5vbeoikU) - [Aparat](https://www.aparat.com/v/W7yP9)
 
-### You also can access full list of tutorial videos by visting one of below links:
+### You can also access full list of tutorial videos by visiting one of the below links:
 - [Youtube play-list](https://www.youtube.com/playlist?list=PL8kI35qv4aXaRaETVfC0CgzlgtKy6e6Gk)
 - [Aparat play-list](https://www.aparat.com/v/pci6K?playlist=1773307)
 
@@ -44,13 +44,13 @@ _Note: You can follow [**this link**](https://www.cloudways.com/blog/install-wor
 2. Unzip downloaded package and copy [dropins](https://github.com/asadidebuger/WPCrudRest/tree/main/dropins "dropins") directory to eclipse installation path (e.g  C:\Program Files\eclipse)
 3. Execute Eclipse
 4. Install [Acceleo](https://www.eclipse.org/acceleo/download.html) plugin
-5. Install [Sirius](https://www.eclipse.org/sirius/)  plugin if is not installed *(preinstall in newer versions)*
+5. Install [Sirius](https://www.eclipse.org/sirius/)  plugin if it is not installed *(preinstall in newer versions)*
 6. Restart Eclipse
 
-### C. Create new Modeling Project
+### C. Create a new Modeling Project
 1. Click on "File" menu item
 2. Choose "New" ->" Other" item from "File" menu
-3. In "Select a wizard" window, search for "Sirius" group and expand it by click
+3. In "Select a wizard" window, search for "Sirius" group and expand it by clicking
 4. Choose "Modeling Project" and click "Next"
 5. Select a name for project and type it in "Project name" field
 6. Click on "Finish" button to create modeling project
