@@ -13,8 +13,8 @@ You can participate in the evaluation of the WPCrudRest framework through the fo
 _WPCrudRest Framework and created WordPress plugin demo:_
 ![WPCrudRest WordPress plugin creator](screenshots/wpcrudrest.gif)
 ## Test environment:
-* [Eclipse Modeling Tools 2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-modeling-tools) 
 * [Windows 10 64X](https://www.microsoft.com/en-us/software-download/windows10) 
+* [Eclipse Modeling Tools 2022-06](https://www.eclipse.org/downloads/packages/release/2022-06/r/eclipse-modeling-tools) 
 * [Java 11 (jdk11)](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
 * [XAMPP 7.1.2 (PHP 7.1.2)](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.1.29/)
 
