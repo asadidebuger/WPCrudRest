@@ -41,7 +41,7 @@
         <form>
           <fieldLayout field="//@plugin/@serviceProvider/@entityModel.1/@fields.0" layout="Fill"/>
         </form>
-        <list listColumns="//@plugin/@serviceProvider/@entityModel.1/@fields.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.1/@fields.0"/>
+        <list listColumns="//@plugin/@serviceProvider/@entityModel.1/@fields.0" sortableColumns="//@plugin/@serviceProvider/@entityModel.1/@fields.0" searchableColumns="//@plugin/@serviceProvider/@entityModel.1/@fields.0"/>
       </page>
       <page key="edu" entity="edu">
         <form>
@@ -190,6 +190,7 @@
         <relations key="father" label="Father" entity="person" opposite="//@plugin/@serviceProvider/@entityModel.0/@relations.3"/>
         <relations key="child" label="Children" entity="person" many="true" opposite="//@plugin/@serviceProvider/@entityModel.0/@relations.2"/>
         <relations key="employee" label="Employee" unique="true" entity="employee" opposite="//@plugin/@serviceProvider/@entityModel.8/@relations.0"/>
+        <relations key="insurance" label="Insurance History" entity="insurance" many="true" opposite="//@plugin/@serviceProvider/@entityModel.5/@relations.0"/>
       </entityModel>
       <entityModel key="blood" label="Blood Group" labelPlural="Blood Groups" titleScript="item.title">
         <fields key="title" label="Title" index="true" unique="true" required="true">
@@ -209,7 +210,7 @@
         <fields key="capacity" label="Capacity" required="true">
           <type href="FieldTypeRepo.crudrest#int"/>
         </fields>
-        <relations key="employ" label="Employees" entity="person" many="true"/>
+        <relations key="employ" label="Employees" entity="employee" many="true" opposite="//@plugin/@serviceProvider/@entityModel.8/@relations.10"/>
       </entityModel>
       <entityModel key="shift" label="Shift" labelPlural="Shifts" titleScript="item.title">
         <fields key="title" label="Title" unique="true" required="true">
@@ -221,7 +222,7 @@
         <fields key="end" label="End" required="true">
           <type href="FieldTypeRepo.crudrest#time"/>
         </fields>
-        <relations key="employe" label="Employees" entity="person" many="true"/>
+        <relations key="employe" label="Employees" entity="employee" many="true" opposite="//@plugin/@serviceProvider/@entityModel.8/@relations.9"/>
       </entityModel>
       <entityModel key="insurance" label="Insurance" labelPlural="Insurances" titleScript="item.title">
         <fields key="title" label="Title" unique="true" required="true">
@@ -233,7 +234,7 @@
         <fields key="end" label="End" required="true">
           <type href="FieldTypeRepo.crudrest#datetime"/>
         </fields>
-        <relations key="person" label="People" entity="employee" many="true" opposite="//@plugin/@serviceProvider/@entityModel.8/@relations.2"/>
+        <relations key="person" label="People" entity="employee" many="true" opposite="//@plugin/@serviceProvider/@entityModel.0/@relations.5"/>
       </entityModel>
       <entityModel key="asset" label="Asset" labelPlural="Assets" titleScript="item.title">
         <fields key="title" label="Title" index="true" required="true">
@@ -269,6 +270,8 @@
         <relations key="job" label="Job" entity="job" opposite="//@plugin/@serviceProvider/@entityModel.10/@relations.0"/>
         <relations key="workTime" label="Work Times" entity="workTime" many="true"/>
         <relations key="cat" label="Job Category" entity="jobCategory" opposite="//@plugin/@serviceProvider/@entityModel.12/@relations.0"/>
+        <relations key="shift" label="Shift" entity="shift" opposite="//@plugin/@serviceProvider/@entityModel.4/@relations.0"/>
+        <relations key="place" label="Place" entity="building" opposite="//@plugin/@serviceProvider/@entityModel.3/@relations.0"/>
       </entityModel>
       <entityModel key="ability" label="Ability" labelPlural="Abilities" titleScript="item.title">
         <fields key="title" label="Title" unique="true" required="true">
